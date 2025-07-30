@@ -1,4 +1,4 @@
-import httpInstance from "@/utils/http";
+import http from "@/utils/http";
 export function getCategory() {
-  return httpInstance.get({ url: "/home/category/head" });
+  return http({ url: "/home/category/head" });
 }
